@@ -1,0 +1,72 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/_8sdp"
+    app:cardElevation="@dimen/_8sdp"
+    android:layout_margin="@dimen/_4sdp"
+    app:cardMaxElevation="@dimen/_8sdp"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:padding="@dimen/_6sdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Left Image -->
+    <ImageView
+        android:id="@+id/ivThumbnail"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image1"
+        android:contentDescription="@string/app_name"
+        android:layout_marginEnd="8dp"/>
+
+    <!-- Right Content -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- Headline + Time -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvHeadline"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Story Headline"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:maxLines="1"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="36m ago"
+                android:textSize="12sp"
+                android:textColor="@android:color/darker_gray"/>
+        </LinearLayout>
+
+        <!-- Teaser -->
+        <TextView
+            android:id="@+id/tvTeaser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="max lines 2 - Lorem ipsum dolor sit amet"
+            android:textSize="13sp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="2dp"/>
+    </LinearLayout>
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

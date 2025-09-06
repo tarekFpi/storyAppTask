@@ -1,0 +1,255 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mydevesstream"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\MovieApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\MovieApp\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\MovieApp\app\src\main\AndroidManifest.xml:6:5-79
+12-->D:\MovieApp\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\MovieApp\app\src\main\AndroidManifest.xml:7:5-80
+13-->D:\MovieApp\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->D:\MovieApp\app\src\main\AndroidManifest.xml:8:5-79
+14-->D:\MovieApp\app\src\main\AndroidManifest.xml:8:22-77
+15
+16    <!-- This permission is required to start foreground services in Android P. -->
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\Tarek\.gradle\caches\transforms-4\2fbba3d2d08b2b07dfe1d98f0ccd2e4a\transformed\play-services-cast-framework-21.2.0\AndroidManifest.xml:10:5-77
+17-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\Tarek\.gradle\caches\transforms-4\2fbba3d2d08b2b07dfe1d98f0ccd2e4a\transformed\play-services-cast-framework-21.2.0\AndroidManifest.xml:10:22-74
+18
+19    <queries>
+19-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\Tarek\.gradle\caches\transforms-4\2fbba3d2d08b2b07dfe1d98f0ccd2e4a\transformed\play-services-cast-framework-21.2.0\AndroidManifest.xml:12:5-14:15
+20        <package android:name="com.google.android.gms.policy_cast_dynamite" />
+20-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\Tarek\.gradle\caches\transforms-4\2fbba3d2d08b2b07dfe1d98f0ccd2e4a\transformed\play-services-cast-framework-21.2.0\AndroidManifest.xml:13:9-79
+20-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\Tarek\.gradle\caches\transforms-4\2fbba3d2d08b2b07dfe1d98f0ccd2e4a\transformed\play-services-cast-framework-21.2.0\AndroidManifest.xml:13:18-76
+21    </queries>
+22
+23    <permission
+23-->[androidx.core:core:1.13.1] C:\Users\Tarek\.gradle\caches\transforms-4\7fa9edabb3c59acc8b76e03c38fd0047\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+24        android:name="com.example.mydevesstream.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+24-->[androidx.core:core:1.13.1] C:\Users\Tarek\.gradle\caches\transforms-4\7fa9edabb3c59acc8b76e03c38fd0047\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+25        android:protectionLevel="signature" />
+25-->[androidx.core:core:1.13.1] C:\Users\Tarek\.gradle\caches\transforms-4\7fa9edabb3c59acc8b76e03c38fd0047\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+26
+27    <uses-permission android:name="com.example.mydevesstream.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+27-->[androidx.core:core:1.13.1] C:\Users\Tarek\.gradle\caches\transforms-4\7fa9edabb3c59acc8b76e03c38fd0047\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.13.1] C:\Users\Tarek\.gradle\caches\transforms-4\7fa9edabb3c59acc8b76e03c38fd0047\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+28
+29    <application
+29-->D:\MovieApp\app\src\main\AndroidManifest.xml:10:5-43:19
+30        android:name="com.example.mydevesstream.di.ApplicationComponent"
+30-->D:\MovieApp\app\src\main\AndroidManifest.xml:11:9-48
+31        android:allowBackup="true"
+31-->D:\MovieApp\app\src\main\AndroidManifest.xml:12:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.13.1] C:\Users\Tarek\.gradle\caches\transforms-4\7fa9edabb3c59acc8b76e03c38fd0047\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+33        android:dataExtractionRules="@xml/data_extraction_rules"
+33-->D:\MovieApp\app\src\main\AndroidManifest.xml:13:9-65
+34        android:extractNativeLibs="false"
+35        android:fullBackupContent="@xml/backup_rules"
+35-->D:\MovieApp\app\src\main\AndroidManifest.xml:14:9-54
+36        android:icon="@mipmap/ic_launcher"
+36-->D:\MovieApp\app\src\main\AndroidManifest.xml:15:9-43
+37        android:label="@string/app_name"
+37-->D:\MovieApp\app\src\main\AndroidManifest.xml:16:9-41
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->D:\MovieApp\app\src\main\AndroidManifest.xml:17:9-54
+39        android:supportsRtl="true"
+39-->D:\MovieApp\app\src\main\AndroidManifest.xml:18:9-35
+40        android:theme="@style/AppTheme" >
+40-->D:\MovieApp\app\src\main\AndroidManifest.xml:19:9-40
+41        <activity
+41-->D:\MovieApp\app\src\main\AndroidManifest.xml:22:9-24:40
+42            android:name="com.example.mydevesstream.view.OnboardingActivity"
+42-->D:\MovieApp\app\src\main\AndroidManifest.xml:23:13-52
+43            android:exported="false" />
+43-->D:\MovieApp\app\src\main\AndroidManifest.xml:24:13-37
+44        <activity
+44-->D:\MovieApp\app\src\main\AndroidManifest.xml:25:9-27:40
+45            android:name="com.example.mydevesstream.view.HomeActivity"
+45-->D:\MovieApp\app\src\main\AndroidManifest.xml:26:13-46
+46            android:exported="false" />
+46-->D:\MovieApp\app\src\main\AndroidManifest.xml:27:13-37
+47        <activity
+47-->D:\MovieApp\app\src\main\AndroidManifest.xml:28:9-30:40
+48            android:name="com.example.mydevesstream.view.MovieDetailsActivity"
+48-->D:\MovieApp\app\src\main\AndroidManifest.xml:29:13-54
+49            android:exported="false" />
+49-->D:\MovieApp\app\src\main\AndroidManifest.xml:30:13-37
+50        <activity
+50-->D:\MovieApp\app\src\main\AndroidManifest.xml:31:9-33:40
+51            android:name="com.example.mydevesstream.MainActivity"
+51-->D:\MovieApp\app\src\main\AndroidManifest.xml:32:13-41
+52            android:exported="false" />
+52-->D:\MovieApp\app\src\main\AndroidManifest.xml:33:13-37
+53        <activity
+53-->D:\MovieApp\app\src\main\AndroidManifest.xml:34:9-42:20
+54            android:name="com.example.mydevesstream.view.splashActivity"
+54-->D:\MovieApp\app\src\main\AndroidManifest.xml:35:13-48
+55            android:exported="true" >
+55-->D:\MovieApp\app\src\main\AndroidManifest.xml:36:13-36
+56            <intent-filter>
+56-->D:\MovieApp\app\src\main\AndroidManifest.xml:37:13-41:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->D:\MovieApp\app\src\main\AndroidManifest.xml:38:17-69
+57-->D:\MovieApp\app\src\main\AndroidManifest.xml:38:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->D:\MovieApp\app\src\main\AndroidManifest.xml:40:17-77
+59-->D:\MovieApp\app\src\main\AndroidManifest.xml:40:27-74
+60            </intent-filter>
+61        </activity>
+62
+63        <receiver
+63-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\Tarek\.gradle\caches\transforms-4\2fbba3d2d08b2b07dfe1d98f0ccd2e4a\transformed\play-services-cast-framework-21.2.0\AndroidManifest.xml:17:9-19:40
+64            android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver"
+64-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\Tarek\.gradle\caches\transforms-4\2fbba3d2d08b2b07dfe1d98f0ccd2e4a\transformed\play-services-cast-framework-21.2.0\AndroidManifest.xml:18:13-91
+65            android:exported="false" />
+65-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\Tarek\.gradle\caches\transforms-4\2fbba3d2d08b2b07dfe1d98f0ccd2e4a\transformed\play-services-cast-framework-21.2.0\AndroidManifest.xml:19:13-37
+66
+67        <service
+67-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\Tarek\.gradle\caches\transforms-4\2fbba3d2d08b2b07dfe1d98f0ccd2e4a\transformed\play-services-cast-framework-21.2.0\AndroidManifest.xml:21:9-24:61
+68            android:name="com.google.android.gms.cast.framework.media.MediaNotificationService"
+68-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\Tarek\.gradle\caches\transforms-4\2fbba3d2d08b2b07dfe1d98f0ccd2e4a\transformed\play-services-cast-framework-21.2.0\AndroidManifest.xml:22:13-96
+69            android:exported="false"
+69-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\Tarek\.gradle\caches\transforms-4\2fbba3d2d08b2b07dfe1d98f0ccd2e4a\transformed\play-services-cast-framework-21.2.0\AndroidManifest.xml:23:13-37
+70            android:foregroundServiceType="mediaPlayback" />
+70-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\Tarek\.gradle\caches\transforms-4\2fbba3d2d08b2b07dfe1d98f0ccd2e4a\transformed\play-services-cast-framework-21.2.0\AndroidManifest.xml:24:13-58
+71        <service
+71-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\Tarek\.gradle\caches\transforms-4\2fbba3d2d08b2b07dfe1d98f0ccd2e4a\transformed\play-services-cast-framework-21.2.0\AndroidManifest.xml:25:9-27:40
+72            android:name="com.google.android.gms.cast.framework.ReconnectionService"
+72-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\Tarek\.gradle\caches\transforms-4\2fbba3d2d08b2b07dfe1d98f0ccd2e4a\transformed\play-services-cast-framework-21.2.0\AndroidManifest.xml:26:13-85
+73            android:exported="false" />
+73-->[com.google.android.gms:play-services-cast-framework:21.2.0] C:\Users\Tarek\.gradle\caches\transforms-4\2fbba3d2d08b2b07dfe1d98f0ccd2e4a\transformed\play-services-cast-framework-21.2.0\AndroidManifest.xml:27:13-37
+74
+75        <activity
+75-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Tarek\.gradle\caches\transforms-4\e4132c816a1e98316b0a7407138451ab\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+76            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+76-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Tarek\.gradle\caches\transforms-4\e4132c816a1e98316b0a7407138451ab\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+77            android:exported="false"
+77-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Tarek\.gradle\caches\transforms-4\e4132c816a1e98316b0a7407138451ab\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+78-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Tarek\.gradle\caches\transforms-4\e4132c816a1e98316b0a7407138451ab\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+79
+80        <meta-data
+80-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Tarek\.gradle\caches\transforms-4\82f1385f6b2ca120d57e5edf8ae5c765\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+81            android:name="com.google.android.gms.version"
+81-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Tarek\.gradle\caches\transforms-4\82f1385f6b2ca120d57e5edf8ae5c765\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+82            android:value="@integer/google_play_services_version" />
+82-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Tarek\.gradle\caches\transforms-4\82f1385f6b2ca120d57e5edf8ae5c765\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+83
+84        <provider
+84-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Tarek\.gradle\caches\transforms-4\7a440e2792ec955e859353a625f7edc2\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+85            android:name="androidx.startup.InitializationProvider"
+85-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Tarek\.gradle\caches\transforms-4\7a440e2792ec955e859353a625f7edc2\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+86            android:authorities="com.example.mydevesstream.androidx-startup"
+86-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Tarek\.gradle\caches\transforms-4\7a440e2792ec955e859353a625f7edc2\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+87            android:exported="false" >
+87-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Tarek\.gradle\caches\transforms-4\7a440e2792ec955e859353a625f7edc2\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+88            <meta-data
+88-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Tarek\.gradle\caches\transforms-4\7a440e2792ec955e859353a625f7edc2\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+89-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Tarek\.gradle\caches\transforms-4\7a440e2792ec955e859353a625f7edc2\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+90                android:value="androidx.startup" />
+90-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Tarek\.gradle\caches\transforms-4\7a440e2792ec955e859353a625f7edc2\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+91            <meta-data
+91-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Tarek\.gradle\caches\transforms-4\4f2817310839e15e7a37d9b9f7febb3c\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Tarek\.gradle\caches\transforms-4\4f2817310839e15e7a37d9b9f7febb3c\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+93                android:value="androidx.startup" />
+93-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Tarek\.gradle\caches\transforms-4\4f2817310839e15e7a37d9b9f7febb3c\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+94            <meta-data
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Tarek\.gradle\caches\transforms-4\2dbfed8792b2d8f736041ad829d874ee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+95                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Tarek\.gradle\caches\transforms-4\2dbfed8792b2d8f736041ad829d874ee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+96                android:value="androidx.startup" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Tarek\.gradle\caches\transforms-4\2dbfed8792b2d8f736041ad829d874ee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+97        </provider>
+98        <provider
+98-->[com.squareup.picasso:picasso:2.71828] C:\Users\Tarek\.gradle\caches\transforms-4\f32f24c9172ba6c2e576934d0189e114\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+99            android:name="com.squareup.picasso.PicassoProvider"
+99-->[com.squareup.picasso:picasso:2.71828] C:\Users\Tarek\.gradle\caches\transforms-4\f32f24c9172ba6c2e576934d0189e114\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+100            android:authorities="com.example.mydevesstream.com.squareup.picasso"
+100-->[com.squareup.picasso:picasso:2.71828] C:\Users\Tarek\.gradle\caches\transforms-4\f32f24c9172ba6c2e576934d0189e114\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+101            android:exported="false" />
+101-->[com.squareup.picasso:picasso:2.71828] C:\Users\Tarek\.gradle\caches\transforms-4\f32f24c9172ba6c2e576934d0189e114\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+102
+103        <receiver
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Tarek\.gradle\caches\transforms-4\2dbfed8792b2d8f736041ad829d874ee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+104            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Tarek\.gradle\caches\transforms-4\2dbfed8792b2d8f736041ad829d874ee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+105            android:directBootAware="false"
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Tarek\.gradle\caches\transforms-4\2dbfed8792b2d8f736041ad829d874ee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+106            android:enabled="true"
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Tarek\.gradle\caches\transforms-4\2dbfed8792b2d8f736041ad829d874ee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+107            android:exported="true"
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Tarek\.gradle\caches\transforms-4\2dbfed8792b2d8f736041ad829d874ee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+108            android:permission="android.permission.DUMP" >
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Tarek\.gradle\caches\transforms-4\2dbfed8792b2d8f736041ad829d874ee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Tarek\.gradle\caches\transforms-4\2dbfed8792b2d8f736041ad829d874ee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+110                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Tarek\.gradle\caches\transforms-4\2dbfed8792b2d8f736041ad829d874ee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Tarek\.gradle\caches\transforms-4\2dbfed8792b2d8f736041ad829d874ee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+111            </intent-filter>
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Tarek\.gradle\caches\transforms-4\2dbfed8792b2d8f736041ad829d874ee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+113                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Tarek\.gradle\caches\transforms-4\2dbfed8792b2d8f736041ad829d874ee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Tarek\.gradle\caches\transforms-4\2dbfed8792b2d8f736041ad829d874ee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+114            </intent-filter>
+115            <intent-filter>
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Tarek\.gradle\caches\transforms-4\2dbfed8792b2d8f736041ad829d874ee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+116                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Tarek\.gradle\caches\transforms-4\2dbfed8792b2d8f736041ad829d874ee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Tarek\.gradle\caches\transforms-4\2dbfed8792b2d8f736041ad829d874ee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+117            </intent-filter>
+118            <intent-filter>
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Tarek\.gradle\caches\transforms-4\2dbfed8792b2d8f736041ad829d874ee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+119                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Tarek\.gradle\caches\transforms-4\2dbfed8792b2d8f736041ad829d874ee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Tarek\.gradle\caches\transforms-4\2dbfed8792b2d8f736041ad829d874ee\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+120            </intent-filter>
+121        </receiver>
+122
+123        <service
+123-->[com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\Tarek\.gradle\caches\transforms-4\937c8e2bf2ff62f05446894b6e9d13c0\transformed\transport-backend-cct-3.1.3\AndroidManifest.xml:29:9-35:19
+124            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+124-->[com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\Tarek\.gradle\caches\transforms-4\937c8e2bf2ff62f05446894b6e9d13c0\transformed\transport-backend-cct-3.1.3\AndroidManifest.xml:30:13-103
+125            android:exported="false" >
+125-->[com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\Tarek\.gradle\caches\transforms-4\937c8e2bf2ff62f05446894b6e9d13c0\transformed\transport-backend-cct-3.1.3\AndroidManifest.xml:31:13-37
+126            <meta-data
+126-->[com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\Tarek\.gradle\caches\transforms-4\937c8e2bf2ff62f05446894b6e9d13c0\transformed\transport-backend-cct-3.1.3\AndroidManifest.xml:32:13-34:39
+127                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+127-->[com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\Tarek\.gradle\caches\transforms-4\937c8e2bf2ff62f05446894b6e9d13c0\transformed\transport-backend-cct-3.1.3\AndroidManifest.xml:33:17-94
+128                android:value="cct" />
+128-->[com.google.android.datatransport:transport-backend-cct:3.1.3] C:\Users\Tarek\.gradle\caches\transforms-4\937c8e2bf2ff62f05446894b6e9d13c0\transformed\transport-backend-cct-3.1.3\AndroidManifest.xml:34:17-36
+129        </service>
+130        <service
+130-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\Tarek\.gradle\caches\transforms-4\d5bdc6621b2b1f36153fc10607ee6ef5\transformed\transport-runtime-3.1.3\AndroidManifest.xml:26:9-30:19
+131            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+131-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\Tarek\.gradle\caches\transforms-4\d5bdc6621b2b1f36153fc10607ee6ef5\transformed\transport-runtime-3.1.3\AndroidManifest.xml:27:13-117
+132            android:exported="false"
+132-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\Tarek\.gradle\caches\transforms-4\d5bdc6621b2b1f36153fc10607ee6ef5\transformed\transport-runtime-3.1.3\AndroidManifest.xml:28:13-37
+133            android:permission="android.permission.BIND_JOB_SERVICE" >
+133-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\Tarek\.gradle\caches\transforms-4\d5bdc6621b2b1f36153fc10607ee6ef5\transformed\transport-runtime-3.1.3\AndroidManifest.xml:29:13-69
+134        </service>
+135
+136        <receiver
+136-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\Tarek\.gradle\caches\transforms-4\d5bdc6621b2b1f36153fc10607ee6ef5\transformed\transport-runtime-3.1.3\AndroidManifest.xml:32:9-34:40
+137            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+137-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\Tarek\.gradle\caches\transforms-4\d5bdc6621b2b1f36153fc10607ee6ef5\transformed\transport-runtime-3.1.3\AndroidManifest.xml:33:13-132
+138            android:exported="false" />
+138-->[com.google.android.datatransport:transport-runtime:3.1.3] C:\Users\Tarek\.gradle\caches\transforms-4\d5bdc6621b2b1f36153fc10607ee6ef5\transformed\transport-runtime-3.1.3\AndroidManifest.xml:34:13-37
+139    </application>
+140
+141</manifest>
